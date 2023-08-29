@@ -32,13 +32,13 @@ public static partial class Hardcoded
             }
         },
         // ??? > Diablo 4 Launch Event
-        {
-            3,
-            new[]
-            {
-                new ExtraEncounter("Treasure Goblin"),
-            }
-        },
+//        {
+//            3,
+//            new[]
+//            {
+//                new ExtraEncounter("Treasure Goblin"),
+//            }
+//        },
         #endregion
 
         #region Classic
@@ -81,6 +81,26 @@ public static partial class Hardcoded
                 {
                     AfterEncounter = 450, // The Unforgiven
                 },
+             }
+        },
+        // Classic > Old Scholomance
+        {
+            10001,
+            new[]
+            {
+                new ExtraEncounter("Kirtonos the Herald")
+                new ExtraEncounter("Jandice Barov")
+                new ExtraEncounter("Rattlegore")
+                new ExtraEncounter("Marduk Blackpool")
+                new ExtraEncounter("Vectus")
+                new ExtraEncounter("Ras Frostwhisper")
+                new ExtraEncounter("Instructor Malicia")
+                new ExtraEncounter("Doctor Theolen Krastinov")
+                new ExtraEncounter("Lorekeeper Polkelt")
+                new ExtraEncounter("The Ravenian")
+                new ExtraEncounter("Lord Alexei Barov")
+                new ExtraEncounter("Lady Illucia Barov")
+                new ExtraEncounter("Darkmaster Gandling")
              }
         },
         #endregion
