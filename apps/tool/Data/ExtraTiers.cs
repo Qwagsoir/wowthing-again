@@ -26,9 +26,14 @@ public static partial class Hardcoded
                     Name = "Anniversary World Bosses",
                 },
                 new DumpJournalInstance
+//                {
+//                    ID = 3,
+//                    Name = "Diablo 4 Launch Event",
+//                },
+                new DumpJournalInstance
                 {
-                    ID = 3,
-                    Name = "Diablo 4 Launch Event",
+                    ID = 10001,
+                    Name = "Old Scholomance",
                 },
             }
         )
